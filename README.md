@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-ilustra.gif" alt="GIF de Ilustração de Computador" width="300" height="auto"/>
 </p>
 
-<h3 align="center">Olá, eu sou o Jhonata Caetano 👋</h3>
+<h1 align="center">Olá, eu sou o Jhonata Caetano 👋</h1>
 
 <p align="center">
   Desenvolvedor apaixonado por transformar problemas em soluções digitais inteligentes com <b>C#, ASP.NET Core e SQL</b>.<br> 
@@ -15,7 +15,7 @@
   <a href="https://www.linkedin.com/in/jhonataclopes/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="mailto:[seu-email@dominio.com]" target="_blank">
+  <a href="mailto:[caetanojhonata@hotmail.com]" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   </p>
