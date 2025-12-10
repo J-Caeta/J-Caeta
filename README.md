@@ -1,89 +1,84 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-ilustra.gif" alt="GIF de Ilustração de Computador" width="300" height="auto"/>
-</p>
-
-<h1 align="center">Olá, eu sou o Jhonata Caetano 👋</h1>
-
-<p align="center">
-  Desenvolvedor apaixonado por transformar problemas em soluções digitais inteligentes com <b>C#, ASP.NET Core e SQL</b>.<br> 
-  Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma simples, funcional e estratégica.
-</p>
-
----
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/jhonataclopes/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:[caetanojhonata@hotmail.com]" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-ilustra.gif" alt="Coding GIF" width="200"/>
+  
+  <h1>Olá, eu sou o Jhonata Caetano 👋</h1>
+  
+  <p>
+    <b>Desenvolvedor .NET Full Stack em formação</b>
   </p>
 
----
+  <p>
+    Transformando problemas complexos em soluções digitais com C#, ASP.NET Core, Blazor e SQL.
+  </p>
 
-### 🚀 Atualmente
-
--   Estudando a fundo a plataforma **.NET** e **ASP.NET Core** através da mentoria START do **@Luis Dev**.
--   Construindo um **Sistema de Gerenciamento de Biblioteca** em C#. (Fique de olho, logo estará aqui!)
--   Buscando oportunidades como Desenvolvedor .NET para aplicar e expandir minhas habilidades.
-
----
-
-### 💼 Experiências Anteriores
-
--   Automação de processos (Excel, Notion, Google Workspace).
--   Desenvolvimento web com **HTML, CSS e JavaScript** (calculadora de conversão de pontos).
-
----
-
-### 💻 Minha Stack de Tecnologias
-
-<p align="left">
-  <a href="https://learn.microsoft.com/pt-br/dotnet/csharp/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> 
-  </a> 
-  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> 
-  </a> 
-  <a href="https://learn.microsoft.com/pt-br/aspnet/core/" target="_blank" rel="noreferrer"> 
-    <img src="https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=for-the-badge&logo=aspnet&logoColor=white" alt="aspnetcore"/> 
+ <a href="https://www.linkedin.com/in/jhonataclopes/">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+  <a href="mailto:caetanojhonata@hotmail.com">
+     <img src="https://skillicons.dev/icons?i=gmail" />
   </a>
-  <a href="https://www.microsoft.com/pt-br/sql-server" target="_blank" rel="noreferrer"> 
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="sqlserver" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-  </a> 
-  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-  </a>
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40"/>
-  </a>
-</p>
+</div>
 
+<hr/>
 
-### 🎓 Certificados Recentes
+### 🧐 Sobre mim
 
--   **Fundamentos de C#** - _Next Wave Education_
--   **Programação Orientada a Objetos** - _Next Wave Education_
--   **Introdução à Programação** - _Next Wave Education_
+Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma estratégica. Tenho experiência prévia com automação de processos e hoje foco total no desenvolvimento de software robusto e escalável.
+
+- 🔭 **Atualmente:** Aprofundando em **Arquitetura de Software e Full Stack .NET** na mentoria START do @Luis Dev.
+- 🎯 **Objetivo:** Busco oportunidades como Desenvolvedor .NET para aplicar minhas habilidades e gerar valor real.
 
 ---
 
-<p align="center">
+### 🚀 Projeto em Destaque: Pé na Estrada 🌄
+
+Atualmente estou desenvolvendo uma aplicação **Full Stack** de diário de viagens, aplicando os conceitos mais modernos do mercado.
+
+**O que estou construindo neste projeto:**
+* **Arquitetura:** Clean Architecture (Domain, Application, Infrastructure, API e Client).
+* **Backend:** ASP.NET Core Web API 8 com Entity Framework Core.
+* **Frontend:** Blazor WebAssembly (SPA) consumindo API REST.
+* **Segurança:** Implementação completa de Identity e Autenticação via **JWT (Bearer Token)**.
+* **Features Avançadas:** Upload de imagens, manipulação de arquivos (Multipart/Form-Data) e CRUD completo.
+
+---
+
+### 🛠️ Tech Stack
+
+**Backend**<br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet" />
+</a>
+
+**Frontend & Ferramentas**<br>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,visualstudio" />
+</a>
+
+---
+
+### 🎓 Certificações e Formação
+
+**Next Wave Education**
+- 📜 **C# e Programação Orientada a Objetos** *(Foco em LINQ, Depuração e Manipulação de dados)*
+- 📜 **Fundamentos de C#** *(.NET Framework e Lógica)*
+- 📜 **Introdução à Programação**
+
+**Universidade Estácio de Sá**
+- 🎓 **Programação de Algoritmos Escaláveis**
+- 🎓 **Programação para Internet**
+
+---
+
+### 📊 Estatísticas do GitHub
+
+<div align="center">
   <a href="https://github.com/J-Caeta">
-    <img src="https://profile-counter.glitch.me/J-Caeta/count.svg" alt="Contador de Visitas do Perfil de Jhonata Caetano">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=J-Caeta&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Caeta&layout=compact&theme=dracula"/>
   </a>
-</p>
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=J-Caeta&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub de Jhonata"/>
-</p>
+<div align="center">
+  <img src="https://profile-counter.glitch.me/J-Caeta/count.svg" alt="Visitors">
+</div>
