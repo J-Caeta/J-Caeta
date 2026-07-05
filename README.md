@@ -4,11 +4,11 @@
   <h1>Olá, eu sou o Jhonata Caetano 👋</h1>
   
   <p>
-    <b>Desenvolvedor .NET Full Stack | Analista de Sistemas</b>
+    <b>Desenvolvedor Full Stack | Analista de Sistemas</b>
   </p>
 
   <p>
-    Transformando problemas complexos em soluções digitais com C#, ASP.NET Core, Blazor e SQL.
+    Transformando problemas complexos em soluções digitais robustas e escaláveis.
   </p>
 
  <a href="https://www.linkedin.com/in/jhonataclopes/">
@@ -23,11 +23,11 @@
 
 ### 🧐 Sobre mim
 
-Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma estratégica. Tenho background em suporte corporativo e gerenciamento de banco de dados, e hoje atuo diretamente no desenvolvimento de software robusto e escalável.
+Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma estratégica. Tenho background em suporte corporativo e gerenciamento de banco de dados, e hoje atuo diretamente no desenvolvimento de software de ponta a ponta.
 
 - 💼 **Experiência Atual:** Desenvolvedor FullStack Jr na **Álamo Benefícios**, trabalhando com automação, banco de dados (MySQL) e desenvolvimento web.
-- 🔭 **Aprimoramento:** Aprofundando em **Arquitetura de Software e Full Stack .NET** na mentoria START do @Luis Dev.
-- 🎯 **Foco:** Entregar valor real aos negócios através de código limpo, APIs eficientes e arquiteturas modernas.
+- 🔭 **Aprimoramento:** Aprofundando em **Arquitetura de Software e Full Stack** na mentoria START do @Luis Dev.
+- 🎯 **Foco:** Entregar valor real aos negócios através de código limpo, APIs eficientes, arquiteturas modernas e interfaces premium.
 
 ---
 
@@ -39,62 +39,51 @@ Minha missão é crescer como profissional de tecnologia, resolvendo problemas r
 
 ---
 
-### 🚀 Projeto em Destaque: Pé na Estrada 🌄
+### 🐾 Projeto em Destaque: Lunnar Pet Health (LPH)
 
-Atualmente estou desenvolvendo uma aplicação **Full Stack** de diário de viagens, aplicando os conceitos mais modernos do mercado.
+> Um ecossistema completo de monitoramento e prontuário inteligente para saúde de pets, desenvolvido com foco em alta manutenibilidade, design premium e práticas robustas de segurança. Este projeto foi construído sob padrões de engenharia de software de nível corporativo e serve como portfólio de referência para aplicações modernas Fullstack (React 19 + NestJS 11 + MySQL).
 
-**O que estou construindo neste projeto:**
-* **Arquitetura:** Clean Architecture (Domain, Application, Infrastructure, API e Client).
-* **Backend:** ASP.NET Core Web API 8 com Entity Framework Core.
-* **Frontend:** Blazor WebAssembly (SPA) consumindo API REST.
-* **Segurança:** Implementação completa de Identity e Autenticação via **JWT (Bearer Token)**.
-* **Features Avançadas:** Upload de imagens, manipulação de arquivos (Multipart/Form-Data) e CRUD completo.
+#### 📸 Visão Geral do Sistema
+O **Lunnar Pet Health** permite que tutores e profissionais acompanhem a saúde diária de animais de estimação por meio de um painel de controle interativo. Ele resolve dores reais de monitoramento de rotina através de uma interface baseada em *Glassmorphic design* e uma API REST escalável e segura.
 
----
+#### ⚡ Principais Funcionalidades
 
-### 🛠️ Tech Stack
+**Front-End (Web)**
+* **Dashboard Modular e Personalizável**: Permite ao usuário escolher quais widgets deseja visualizar na tela principal (Calculadora de ração, Diário Fisiológico, Areia, Mimos, Vacinas, Consultas).
+* **Calculadora de Consumo de Ração**: Estima automaticamente quantos dias o saco de ração atual durará, alertando o tutor e calculando o custo de alimentação diária por pet.
+* **Diário Fisiológico com Regra de Qualidade**: Registro de necessidades com avaliação de qualidade, seguindo as recomendações de consistência veterinária.
+* **Gerenciador de Consultas e Linha do Tempo**: Registros médicos com aba sanfonada e suporte a comentários aninhados na consulta.
+* **Estilo Ultra Premium & Modo Escuro**: Design elegante baseado em tons quentes e suporte nativo a Tema Escuro com persistência local.
 
-**Backend & Banco de Dados**<br>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,mysql" />
-</a>
+**Back-End (API)**
+* **Persistência de Dados Relacional**: Integração completa via **TypeORM** com tabelas estruturadas e chaves estrangeiras com comportamento `CASCADE`.
+* **Validação de Entrada Estrita (DTOs)**: Uso de `class-validator` e `class-transformer`. Campos não autorizados nas requisições HTTP são rejeitados antes de atingir o banco.
+* **Prevenção contra XSS Armazenado**: Middleware interceptor global que sanitiza tags HTML e injeções de script recursivamente.
+* **Segurança de Identificadores (Mitigação de IDOR)**: Uso de UUIDs de alta entropia, inviabilizando ataques de enumeração direta de recursos.
 
-**Frontend & Ferramentas**<br>
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,visualstudio" />
-</a>
+#### 📐 Modelo de Dados (DER Conceitual)
 
----
+```mermaid
+erDiagram
+    %% Relacionamento: Um TUTOR possui zero ou muitos PETs
+    TUTOR ||--o{ PET : "possui"
 
-### 🎓 Formação Acadêmica
+    PET {
+        uuid id PK
+        string name
+        string type "enum: dog | cat"
+        string breed
+        string age
+        float bagSizeKg
+        int dailyPortionG
+        float bagCost "em Reais"
+        float remainingKg
+        json pottyLogs
+        json vaccines
+        json consultations
+    }
 
-- 🎓 **Análise e Desenvolvimento de Sistemas** - Universidade Unigranrio (Fev 2024 - Dez 2026)
-- 🔒 **Segurança da Informação e LGPD** - FAETEC (Mai 2026 - Out 2026)
-
----
-
-### 📜 Principais Certificações
-
-**Next Wave Education**
-- 🏆 Desenvolvimento Web com ASP.NET MVC
-- 🏆 Certificação em REST APIs com ASP.NET Core
-- 🏅 C# e Programação Orientada a Objetos *(Foco em LINQ, Depuração e Manipulação de dados)*
-
-**Universidade Estácio de Sá**
-- 🏅 Programação de Algoritmos Escaláveis
-- 🏅 Programação para Internet *(HTML & JavaScript)*
-
----
-
-### 📊 Estatísticas do GitHub
-
-<div align="center">
-  <a href="https://github.com/J-Caeta">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=J-Caeta&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=J-Caeta&layout=compact&theme=dracula"/>
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/J-Caeta/count.svg" alt="Visitors">
-</div>
+    TUTOR {
+        uuid id PK
+        string name
+    }
