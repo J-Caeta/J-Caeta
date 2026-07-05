@@ -4,7 +4,7 @@
   <h1>Olá, eu sou o Jhonata Caetano 👋</h1>
   
   <p>
-    <b>Desenvolvedor .NET Full Stack em formação</b>
+    <b>Desenvolvedor .NET Full Stack | Analista de Sistemas</b>
   </p>
 
   <p>
@@ -12,10 +12,10 @@
   </p>
 
  <a href="https://www.linkedin.com/in/jhonataclopes/">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
+  <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
 </a>
   <a href="mailto:caetanojhonata@hotmail.com">
-     <img src="https://skillicons.dev/icons?i=gmail" />
+     <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
   </a>
 </div>
 
@@ -23,10 +23,19 @@
 
 ### 🧐 Sobre mim
 
-Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma estratégica. Tenho experiência prévia com automação de processos e hoje foco total no desenvolvimento de software robusto e escalável.
+Minha missão é crescer como profissional de tecnologia, resolvendo problemas reais de forma estratégica. Tenho background em suporte corporativo e gerenciamento de banco de dados, e hoje atuo diretamente no desenvolvimento de software robusto e escalável.
 
-- 🔭 **Atualmente:** Aprofundando em **Arquitetura de Software e Full Stack .NET** na mentoria START do @Luis Dev.
-- 🎯 **Objetivo:** Busco oportunidades como Desenvolvedor .NET para aplicar minhas habilidades e gerar valor real.
+- 💼 **Experiência Atual:** Desenvolvedor FullStack Jr na **Álamo Benefícios**, trabalhando com automação, banco de dados (MySQL) e desenvolvimento web.
+- 🔭 **Aprimoramento:** Aprofundando em **Arquitetura de Software e Full Stack .NET** na mentoria START do @Luis Dev.
+- 🎯 **Foco:** Entregar valor real aos negócios através de código limpo, APIs eficientes e arquiteturas modernas.
+
+---
+
+### 💼 Experiência Profissional
+
+**Álamo Benefícios**
+- 👨‍💻 **Desenvolvedor FullStack Jr** *(Jun 2026 - Presente)*: Desenvolvimento e manutenção de soluções integradas, utilizando banco de dados e automações (MySQL, Google Apps Script).
+- 🛠️ **Auxiliar de TI I** *(Dez 2025 - Jun 2026)*: Suporte ao gerenciamento de banco de dados corporativo via sistema SGA, garantindo integridade e disponibilidade de informações.
 
 ---
 
@@ -45,9 +54,9 @@ Atualmente estou desenvolvendo uma aplicação **Full Stack** de diário de viag
 
 ### 🛠️ Tech Stack
 
-**Backend**<br>
+**Backend & Banco de Dados**<br>
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,mysql" />
 </a>
 
 **Frontend & Ferramentas**<br>
@@ -57,16 +66,23 @@ Atualmente estou desenvolvendo uma aplicação **Full Stack** de diário de viag
 
 ---
 
-### 🎓 Certificações e Formação
+### 🎓 Formação Acadêmica
+
+- 🎓 **Análise e Desenvolvimento de Sistemas** - Universidade Unigranrio (Fev 2024 - Dez 2026)
+- 🔒 **Segurança da Informação e LGPD** - FAETEC (Mai 2026 - Out 2026)
+
+---
+
+### 📜 Principais Certificações
 
 **Next Wave Education**
-- 📜 **C# e Programação Orientada a Objetos** *(Foco em LINQ, Depuração e Manipulação de dados)*
-- 📜 **Fundamentos de C#** *(.NET Framework e Lógica)*
-- 📜 **Introdução à Programação**
+- 🏆 Desenvolvimento Web com ASP.NET MVC
+- 🏆 Certificação em REST APIs com ASP.NET Core
+- 🏅 C# e Programação Orientada a Objetos *(Foco em LINQ, Depuração e Manipulação de dados)*
 
 **Universidade Estácio de Sá**
-- 🎓 **Programação de Algoritmos Escaláveis**
-- 🎓 **Programação para Internet**
+- 🏅 Programação de Algoritmos Escaláveis
+- 🏅 Programação para Internet *(HTML & JavaScript)*
 
 ---
 
