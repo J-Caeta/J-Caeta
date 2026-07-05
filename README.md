@@ -1,3 +1,6 @@
+Aqui está o seu README atualizado! Substituí o projeto "Pé na Estrada" pelo **Lunnar Pet Health (LPH)**, ajustando os níveis dos títulos para manter a organização do perfil. Também aproveitei para atualizar a seção de **Tech Stack** com os ícones das novas tecnologias que você utilizou nesse projeto (React, TypeScript, NestJS e Node.js).
+
+```markdown
 <div align="center">
   <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-ilustra.gif" alt="Coding GIF" width="200"/>
   
@@ -87,3 +90,98 @@ erDiagram
         uuid id PK
         string name
     }
+
+```
+
+**Pré-requisitos:** Node.js (v18+) e MySQL / MariaDB rodando localmente.
+
+**1. Clonar e Configurar o Banco**
+
+```sql
+CREATE DATABASE lunnar_pet_health;
+
+```
+
+**2. Configurar e rodar o Back-End (`prontuario-pet-api`)**
+
+```bash
+cd prontuario-pet-api
+npm install
+
+```
+
+*Crie um arquivo `.env` na raiz do backend:*
+
+```env
+DB_HOST=localhost
+DB_PORT=3306
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+DB_DATABASE=lunnar_pet_health
+
+```
+
+*Inicie o servidor:*
+
+```bash
+npm run start:dev
+
+```
+
+**3. Configurar e rodar o Front-End (`lunnar-pet-health-web`)**
+
+```bash
+cd lunnar-pet-health-web
+npm install
+
+```
+
+*Crie o arquivo `.env` na raiz do frontend:*
+
+```env
+VITE_API_URL=http://localhost:3000
+
+```
+
+*Inicie o servidor:*
+
+```bash
+npm run dev
+
+```
+
+---
+
+### 🛠️ Tech Stack
+
+**Backend & Banco de Dados**
+
+
+
+**Frontend & Ferramentas**
+
+
+
+---
+
+### 🎓 Formação Acadêmica
+
+* 🎓 **Análise e Desenvolvimento de Sistemas** - Universidade Unigranrio (Fev 2024 - Dez 2026)
+* 🔒 **Segurança da Informação e LGPD** - FAETEC (Mai 2026 - Out 2026)
+
+---
+
+### 📜 Principais Certificações
+
+**Next Wave Education**
+
+* 🏆 Desenvolvimento Web com ASP.NET MVC
+* 🏆 Certificação em REST APIs com ASP.NET Core
+* 🏅 C# e Programação Orientada a Objetos *(Foco em LINQ, Depuração e Manipulação de dados)*
+
+**Universidade Estácio de Sá**
+
+* 🏅 Programação de Algoritmos Escaláveis
+* 🏅 Programação para Internet *(HTML & JavaScript)*
+
+---
